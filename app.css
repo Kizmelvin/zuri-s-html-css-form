@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background: navajowhite;
+}
+
+.wrapper {
+  max-width: 600px;
+  width: 100%;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 5px;
+}
+form:first-child {
+  font-size: 1.6rem;
+}
+input {
+  border: 0.1px solid gray;
+}
+.wrapper h2 {
+  font-size: 3rem;
+  font-weight: 500;
+  text-justify: auto;
+  padding: 5rem 1rem 0 1rem;
+  word-spacing: 0;
+}
+.wrapper h2 span {
+  padding: 0;
+  font-size: 3.5rem;
+  color: orangered;
+}
+.name-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2em 1em 2em 0em;
+  max-width: 80%;
+  width: 100%;
+}
+.name-group input {
+  height: 2rem;
+  width: 100%;
+}
+.name-group .input-box:not(:first-child) {
+  margin-left: 10%;
+}
+input[type="email"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  max-width: 76%;
+  width: 100%;
+}
+.dob-group .input-box input {
+  height: 2em;
+  width: 25%;
+}
+.payment-group {
+  padding-bottom: 2rem;
+}
+.payment-group h4 {
+  font-size: 1.6rem;
+  text-align: center;
+}
+.payment-group .input-box {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+span,
+label {
+  padding: 0%;
+  font-size: 1.2rem;
+}
+.card-group {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 2rem;
+}
+.card-group .input-box input {
+  height: 1.8rem;
+  width: 100%;
+  max-width: 80%;
+}
+.card-group .input-box {
+  font-size: 1.2rem;
+}
+button {
+  font-size: 1.2rem;
+  border: none;
+  padding: 1rem;
+  background: orangered;
+  border-radius: 5px;
+}
+button:hover {
+  /* color: #fff; */
+  font-size: 1.4rem;
+  transition: all ease 0.5s;
+}
